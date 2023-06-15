@@ -31,4 +31,7 @@ body {
   #rainChance {
     margin-bottom: 10px;
   }
+  progress{
+    border-radius: 25%;
+  }
   

@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" type="text/css" href="navbar.css">
     <title>HAWA App</title>
+    <script src="./Widget/app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.1.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
     <ul class="navbar">
         <li><a href="index.html">Home</a></li>
@@ -12,11 +17,24 @@
         <li><a href="signup.html">Sign Up</a></li>
     </ul>
 
-    <p>Isi halaman.</p>
+    <p>Daftar Kualitas Udara</p>
+    <p>SO2</p>
+    <progress className="progress progress-success w-56" value="10" id="so2" max="100"></progress>
+    <p>CO</p>
+    <progress className="progress progress-success w-56" value="10" id="co" max="100"></progress>
+    <p>NH3</p>
+    <progress className="progress progress-success w-56" value="10" id="nh3" max="100"></progress>
+    <p>NO</p>
+    <progress className="progress progress-success w-56" value="10" id="no" max="100"></progress>
+    <p>NO2</p>
+    <progress className="progress progress-success w-56" value="10" id="no2" max="100"></progress>
+    <p>O3</p>
+    <progress className="progress progress-success w-56" value="10" id="o3" max="100"></progress>
 
     <footer>
         <p>This application is the outcome of the Capstone Project RevoU x Kampus Merdeka Batch 3.</p>
         <p>Copyright &copy; 2023 - Team 11 Nusantara</p>
     </footer>
 </body>
+
 </html>
